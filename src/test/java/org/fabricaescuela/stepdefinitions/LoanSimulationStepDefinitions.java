@@ -9,10 +9,7 @@ import net.serenitybdd.screenplay.actions.Open;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 import net.thucydides.core.annotations.Managed;
-import org.fabricaescuela.tasks.ContinueSimulation;
-import org.fabricaescuela.tasks.SelectSiOption;
-import org.fabricaescuela.tasks.SelectSimular;
-import org.fabricaescuela.tasks.ClickSaberMasBtn;
+import org.fabricaescuela.tasks.*;
 import org.openqa.selenium.WebDriver;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
@@ -52,14 +49,12 @@ public class LoanSimulationStepDefinitions {
 
     @When("^I enter a loan amount between (\\d+)'(\\d+)\\.(\\d+) and (\\d+)\\.(\\d+)\\.(\\d+)$")
     public void iEnterALoanAmountBetweenAnd(int arg1, int arg2, int arg3, int arg4, int arg5, int arg6) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        theActorInTheSpotlight().attemptsTo(EnterLoanAmount.makeInformation());
     }
 
     @When("^I enter a random number of months between (\\d+) and (\\d+)$")
     public void iEnterARandomNumberOfMonthsBetweenAnd(int arg1, int arg2) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        theActorInTheSpotlight().attemptsTo(EnterMonthsNumber.makeInformation());
     }
 
     @When("^I enter a random birth date$")

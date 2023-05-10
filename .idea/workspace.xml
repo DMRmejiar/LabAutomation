@@ -5,49 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ccd2ed4-086f-4bf6-aa0f-aee0b823aa78" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fabricaescuela/tasks/ClickSaberMasBtn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fabricaescuela/tasks/ContinueSimulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fabricaescuela/tasks/SelectSiOption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fabricaescuela/userinterfaces/Simulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/0854676e5558a646ab0ea7a4d0cd4141d1fc8f9fdcbccd2fc9997091d94e00ce.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/12824ca1c9583a47af0731a2b6a4ff23026136bd864dc3a7784c54d1629b22cb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/141e049f75c2f8220f429e1dd3c309ca3cb6baa4a352365ec46e70be8723d52a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/347552d73a3e39b2d0186c2b0d2e575b58b4d265b84d5c585cd82c86bb3d71be.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/3dc44141b7ce1528586f7e02a4d5c4753503f81fdbc304eb6e9e27749d24c810.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/3ecfddfc3d537b3ebf4e7817a3450a99c6db2f6dc3395a24f5c73baeb4252c46.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/58c7cbb7a7db146505be1747e97fd009aa96e1e4b7eaf0845b3ce8e709d0e8bb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/5b9d6efde6acd7b8cfc023c8ef0c0fac4627cea522a669cf2465aad27ec2e9cf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/684246b974bffbae0ae80048858777cc7b790fa6141da4e3c2d836153bd275f3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/69ad802aeef61118f4e976ad3b596e3013e7c5edf2a4320f29edf1b3ad6039e9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/6ac059b2e788f822f94b52cb8b1a5245297e32c6c3fd9be42a307d68fc0c37b8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/706059f44556e2175df48095a56cd9211436779fa63af91c1b4de1d4553bfd48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/7a73de48af65a0438e5cef705a43699aa03bce50a34735641a0ba867adab3a42.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/7ddb1d6860c21eee18331cb4a79bab64041c7c883c833a65f3dadea8a5014945.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/84c17673d735807608ba7966fbc40423f71b116eef091f15401f532e765e2564.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/92eacfbd5f6eb7dbf2b5fed386562be11ccdc237ccadcf7073819bf8f5fc672f.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/93538e9b7b5f282e01cc36cbc557c6a1350eaf4ad57756ffa53aefd3bbe148b4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/b349118f32abf9df297aa3e1b9115dd39628956ca855cd7f0a4941cb3d8759c1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/b44d6a3b47820933b9f47ed012420a0f3bdbfb555c4c9807e7d87939e6ebb3e3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/bb9f4e54fe292e8b68a9218ddf6702dbc760da535243a426208992cd306c2c6e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/c1a41856f56fa098a926a793382a5b5b98a8b7d244a1f56d1c2975c9083ec124.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/c454bb59e6d21e5d17b3c2b5e03893b35fa42972aa97b3deebfa8389112c18b3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/c9b221fb9318c62917800b101e92bfc0536c332f221deda849882132cffc2d52.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/cd2059ee32d0393e9a076ce84dfee46ea7537a3f95ecb2da76d054e39e5c3423.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/d39f85409b661b5fc6397d891a607ed9719e4760de8f407721c6b848a63c5dd3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/d8978ecb8dc1601e1a86ca84efa1e4f6b9973da658847729d11765b6365f89ca.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/e5d1bc47284095b09805facb85913387bef532ecfbae60c24f1e3cbe35c4b0be.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/ec98683150ede40bbb3953375c4c1c491ccccd9cefbcd7d5a37f3a27da0b6686.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/ecd281a1f4df4c44bf3f7389b5bdd5f252aa0883d00189e5160e565b2f144ab0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/fc64a4015d37ff2703eb4580bc79c9e96d53556c4cce1cf5ecd939b8e7b575db.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource1898055112530685450.html.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource1954354811934462694.html.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource5672251913642149044.html.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource6095003078431841240.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fabricaescuela/tasks/EnterLoanAmount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fabricaescuela/tasks/EnterMonthsNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/042861d633a4f244b2fa76f895720ae8fce0cf84fd89d8dd6a059f36023dc7ed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/1219c89217411d739c2a5ff0ad19db1d40fcd228f13725ec77f91a0d64449aee.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/3495dc2b72c4e8bda69705b5621560de74e31a3940879202a690fe1aaada8380.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/f9df305b9a91d7942c370a9dc56ff633ab10099403a130e3c9d57e6b02acaa2a.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fabricaescuela/tasks/LoanSimulationTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fabricaescuela/tasks/SelectSimular.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fabricaescuela/userinterfaces/CreditosConsumo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fabricaescuela/userinterfaces/CreditosConsumo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fabricaescuela/userinterfaces/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fabricaescuela/userinterfaces/Home.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fabricaescuela/userinterfaces/Simulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fabricaescuela/userinterfaces/Simulation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/fabricaescuela/stepdefinitions/LoanSimulationStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fabricaescuela/stepdefinitions/LoanSimulationStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/loanSimulation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/loanSimulation.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-d2e1ecc8e7e76d44f0d664a5fff6ba025d4b95d96df0cd7e26b334ae8d7538dc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-d2e1ecc8e7e76d44f0d664a5fff6ba025d4b95d96df0cd7e26b334ae8d7538dc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/d2e1ecc8e7e76d44f0d664a5fff6ba025d4b95d96df0cd7e26b334ae8d7538dc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/d2e1ecc8e7e76d44f0d664a5fff6ba025d4b95d96df0cd7e26b334ae8d7538dc.html" afterDir="false" />
@@ -82,15 +51,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/ziberiann/Documentos/GitHub/LoanAutomationTest/src/test/resources/driver"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ziberiann/Documentos/GitHub/LoanAutomationTest/src/test/resources/driver&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources/driver" />
