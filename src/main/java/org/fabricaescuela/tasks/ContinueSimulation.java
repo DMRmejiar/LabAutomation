@@ -5,19 +5,18 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 import org.fabricaescuela.userinterfaces.CreditosConsumo;
 import org.fabricaescuela.userinterfaces.Home;
+import org.fabricaescuela.userinterfaces.Simulation;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
-public class LoanSimulationTask implements Task {
+public class ContinueSimulation implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
-                Click.on(Home.CERRAR_BTN),
-                Click.on(Home.SABER_MAS_BTN),
-                Click.on(CreditosConsumo.SIMULAR_BTN)
+                Click.on(Simulation.CONTINUAR_BTN)
         );
     }
-    public static LoanSimulationTask makeInformation(){
-        return instrumented(LoanSimulationTask.class);
+    public static ContinueSimulation makeInformation(){
+        return instrumented(ContinueSimulation.class);
     }
 }

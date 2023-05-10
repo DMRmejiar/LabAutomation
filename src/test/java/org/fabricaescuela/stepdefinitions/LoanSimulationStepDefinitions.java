@@ -9,7 +9,10 @@ import net.serenitybdd.screenplay.actions.Open;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 import net.thucydides.core.annotations.Managed;
-import org.fabricaescuela.tasks.LoanSimulationTask;
+import org.fabricaescuela.tasks.ContinueSimulation;
+import org.fabricaescuela.tasks.SelectSiOption;
+import org.fabricaescuela.tasks.SelectSimular;
+import org.fabricaescuela.tasks.ClickSaberMasBtn;
 import org.openqa.selenium.WebDriver;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
@@ -28,26 +31,23 @@ public class LoanSimulationStepDefinitions {
 
 
     @When("^I click on \"([^\"]*)\" button under the title \"([^\"]*)\"$")
-    public void iClickOnButtonUnderTheTitle(String arg1, String arg2) {
-        theActorInTheSpotlight().attemptsTo(LoanSimulationTask.makeInformation());
+    public void iClickOnSaberMasButtonUnderTheTitle(String arg1, String arg2) {
+        theActorInTheSpotlight().attemptsTo(ClickSaberMasBtn.makeInformation());
     }
 
-    @When("^I select the \"([^\"]*)\" option in the simulation$")
-    public void iSelectTheOptionInTheSimulation(String arg1) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+    @When("^I select the \"([^\"]*)\" option in the homepage$")
+    public void iSelectTheSimularOptionInTheSimulation(String arg1) {
+        theActorInTheSpotlight().attemptsTo(SelectSimular.makeInformation());
     }
 
     @When("^I select \"([^\"]*)\"$")
-    public void iSelect(String arg1) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+    public void iSelectContinuarSimulation(String arg1) {
+        theActorInTheSpotlight().attemptsTo(ContinueSimulation.makeInformation());
     }
 
     @When("^I select \"([^\"]*)\" for the question \"([^\"]*)\"$")
-    public void iSelectForTheQuestion(String arg1, String arg2) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+    public void iSelectSiForTheQuestion(String arg1, String arg2) {
+        theActorInTheSpotlight().attemptsTo(SelectSiOption.makeInformation());
     }
 
     @When("^I enter a loan amount between (\\d+)'(\\d+)\\.(\\d+) and (\\d+)\\.(\\d+)\\.(\\d+)$")

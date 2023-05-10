@@ -8,7 +8,7 @@ Feature: Loan simulation
     When I click on "SABER MÁS" button under the title "Financia lo que sueñas, quieres y necesitas"
 
   Scenario: Simulate a free investment loan
-    When I select the "Simular Crédito de libre inversión" option in the simulation
+    When I select the "Simular Crédito de libre inversión" option in the homepage
     And I select "CONTINUAR"
     And I select "Si" for the question "¿Sabes cuánto dinero necesitas?"
     And I enter a loan amount between 1'000.000 and 500.000.000
