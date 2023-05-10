@@ -9,6 +9,7 @@ import net.serenitybdd.screenplay.actions.Open;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 import net.thucydides.core.annotations.Managed;
+import org.fabricaescuela.tasks.LoanSimulationTask;
 import org.openqa.selenium.WebDriver;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
@@ -28,8 +29,7 @@ public class LoanSimulationStepDefinitions {
 
     @When("^I click on \"([^\"]*)\" button under the title \"([^\"]*)\"$")
     public void iClickOnButtonUnderTheTitle(String arg1, String arg2) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        theActorInTheSpotlight().attemptsTo(LoanSimulationTask.makeInformation());
     }
 
     @When("^I select the \"([^\"]*)\" option in the simulation$")
