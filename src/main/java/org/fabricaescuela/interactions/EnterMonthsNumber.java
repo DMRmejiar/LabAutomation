@@ -1,7 +1,7 @@
-package org.fabricaescuela.tasks;
+package org.fabricaescuela.interactions;
 
 import net.serenitybdd.screenplay.Actor;
-import net.serenitybdd.screenplay.Task;
+import net.serenitybdd.screenplay.Interaction;
 import net.serenitybdd.screenplay.actions.Enter;
 import org.fabricaescuela.userinterfaces.Simulation;
 
@@ -9,7 +9,7 @@ import java.util.Random;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
-public class EnterMonthsNumber implements Task {
+public class EnterMonthsNumber implements Interaction {
     @Override
     public <T extends Actor> void performAs(T actor) {
         int maxMonths=84, minMonths=48;

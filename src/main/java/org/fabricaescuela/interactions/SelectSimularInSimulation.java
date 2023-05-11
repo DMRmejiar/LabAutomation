@@ -1,22 +1,21 @@
-package org.fabricaescuela.tasks;
+package org.fabricaescuela.interactions;
 
 import net.serenitybdd.screenplay.Actor;
-import net.serenitybdd.screenplay.Task;
+import net.serenitybdd.screenplay.Interaction;
 import net.serenitybdd.screenplay.actions.Click;
 import org.fabricaescuela.userinterfaces.CreditosConsumo;
-import org.fabricaescuela.userinterfaces.Home;
 import org.fabricaescuela.userinterfaces.Simulation;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
-public class ContinueSimulation implements Task {
+public class SelectSimularInSimulation implements Interaction {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
-                Click.on(Simulation.CONTINUAR_BTN)
+                Click.on(Simulation.SIMULAR_BTN)
         );
     }
-    public static ContinueSimulation makeInformation(){
-        return instrumented(ContinueSimulation.class);
+    public static SelectSimularInSimulation makeInformation(){
+        return instrumented(SelectSimularInSimulation.class);
     }
 }

@@ -5,18 +5,138 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ccd2ed4-086f-4bf6-aa0f-aee0b823aa78" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fabricaescuela/tasks/EnterLoanAmount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fabricaescuela/tasks/EnterMonthsNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/042861d633a4f244b2fa76f895720ae8fce0cf84fd89d8dd6a059f36023dc7ed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/1219c89217411d739c2a5ff0ad19db1d40fcd228f13725ec77f91a0d64449aee.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/3495dc2b72c4e8bda69705b5621560de74e31a3940879202a690fe1aaada8380.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/f9df305b9a91d7942c370a9dc56ff633ab10099403a130e3c9d57e6b02acaa2a.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fabricaescuela/interactions/SelectSimularInSimulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fabricaescuela/questions/SimulationResultIsCompleted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fabricaescuela/tasks/EnterBirthDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/0380005d36114fddd9ec72577b0564c5afd980aab48324c3dfad249422f485e7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/043f9efd545d4f89c01a669ed939575b99acdf9ba02e28cad92a58b8bd2096d8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/058ff0804d811240b48fc9a1718d81d5f474954f4e38600bd9940044b9cb37b1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/06fe0c7b9ff464c664676f3d15d92b88b72d89db92e0b5fd4ef6bf9b1bcef540.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/09fb0bb6ddd245818ee12d2a25eb7520f4cfc81b7f86ce48c980356bb6d47da8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/0a6dad228c47368bef83518eafb7a3f9de89aa25896365ccebe7e8be9aef1c27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/0b71464a3af18082faedc88bd81786a0dd76b8f8d1d67aaabdbe2d6d6caec4cb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/0db7b625bcb37f2195f54febb903df3e0e9c4a9cfb29469e5f378cd53e2974db.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/1514049668bef390da4543d79e3635f492546b1a6c33ac261d319e588c18268d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/17f941e943ec55d0275dedf7d1bc70cb4f303dcff5710172866b3a94658c9f62.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/1949a2fb4acfe6c109e01b550277102a5b6e49929be00c9df3c92fd2184aff30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/194af14b1f58fe868d1a7f7d8daa44798467a8ec5fd500c6b2d66718a15db4fd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/1977240221bc1deabdf54a0324405d528525449395e47a64bb50f3e27231c872.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/1fdd4c490c2cdb34e95edbc29b9f9c20652453712bc064e3d57556da538f7382.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/2075a9949efb59b345f10231005708e9212736d7db4d32ece4c34b200866e3e1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/25f10b3de2753b870a876e9f7989886f6e2bec04a6bac2db9e5fc11844fdb7ce.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/28a0deefbeb027eb95782a996edeb8dbbdf7b03ceb3e9619f8ebb54ea7531ffd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/28ac0c4bbc5f9066ce065719dc1517c4baab9d5e15879b92646fdb33960bd239.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/2acf10b4ed447c69286abfd4fe81a63896d8d81d21d8f445bf9999b99e914864.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/2b6ba2f3fcd7ad9bd764e767a33d1d5e57ad6554b850dc35df178775d375b32c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/309b63c1822583675cb427dbadec7184670242944ed94bb09050f4de8e78e606.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/30b89637468eb21627b2e05bdffbd779ab082dbfee0c5b2b15de5609e4e8cd54.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/31240ce6f24c50e5189431c94856e4c5dab8764100f55f5aba3dd1701450c44f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/3411c00a057db612a73c518771c1ec913f5e84248400b223845682982eb87711.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/34bffcaf95fe5c719e50ecad7d1b69d75f72e83ae8d03377c1dd2f2fbacf26cd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/3d9038a9f3504bb08c89bf68d9bdba9af565c70d39f68f385c3bb4c02bc0b798.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/3fedb24037f4bc64eb0139ddcfe854ed06a10e5a798851920d4d940ab2ab8de7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/414bc06d6b77d62f6a4bf44e0789c316abfe87645b5297b68d48d22a7424e268.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/41d7c14dfdeebddbc72af10454ea25f85540f2f2dac8cd4cd3b50352c3401a5a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/44a0d7e5141ee22b6d115ddaa35078ebc5e75a75408da6c71369e028e5e6139a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/464560e955bc2257556abed1a22924018297dc05ed1a436836e03fa56be88c11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/48b621acbf5dd356f433eb260c8e9ed860a9a61690131a42ca5cc7bf8f9855ac.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/4bc5778ecf48d64dd12beba3e0611f4c6d8806012c6d331c65dfbbfcbe449449.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/5109fdcfbd423ca08d720cbd7d50193d39975515271310ddff71edea1660d431.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/52482653dea57c7387bcdc10c4379a463c1ca53e331f12e54db9cd4d6c4bc27f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/549f9ed71661814ea1e514d81f72c96d7a1f1f44d6df26a613350a85252f851d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/5527784678df868980e9a5edffdb3bc198b056b811e9ffa9d8c17cf005aecafa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/558589e47a60ca8d25444714fa2633557ec24f5e9d64f921907cc83979da3296.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/55dd3cd20623c3208b476099e340152f306b4b23bab35b070227b86fc0b2d21d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/5789caa2a31ffac6c7d47452ca265bbfbdc1db991c86167408d14a0468caaf15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/59ad47434854540b5a4795b655ad49cbc87e8f5a6d838572997c99fa72aa01b1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/5a9aca7ea634e9372128f4027314817d6f1ac080be69f03ba84b247c1d4a025c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/5ce094d59a402432580817d1500758cf1a769610b9a36b7909233973a1d00c64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/5eadd041b6a12cd02193ee37f1f05dca8973e6e481b70094c86450890a1be396.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/5f0db2fa48f1d5662787dffa1a7e21d7ef1eabb8f6727e89fe1b7c81c39b3619.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/623906419055c2c43d119a1a23d7896376376d043fe676ad4e6a8d5abad70d1d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/6833ca547795c34445b4e53daf2c0a1a6ef1ac66539a4b602acfab24229bc311.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/6c3ad9576a61b70873bb3fb62307bd7e7698aa746beed702396ed25dfeda6b95.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/6e7d86564b1b4396532c9e00790f3a3fd5d444e919a3c5e167f569bb8f62050c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/6ed6b9db2d982588b413e95c3802b31588f31c161b63bc91f6f62e82a1b1871c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/738298e6c50815cf54edbca26788701375d3acf1c54ea3417379c75061c97e8f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/7423e2bc2d1d32e03c00395dc06a2039f300fa1904cc9949dab634ad34f5f6e4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/74aea0fa0c6c840452ce177b6435563f1e23cbba6f9dff49b489d3710c09214b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/7838e39151eece6c7b75824ee5dfa7ae91734654165326828a67b757b9ff9a71.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/7dea638bd0315c62e2dacead1019122ce24a58600b906d434be43f2755172776.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/80416878ae2333479e42318632c562c0f97aacb30ce15ded17b26fd3b8f8886f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/81c75151fe2ded7505ca309a90ed823b03d914ab9a8248f1ef39100a85840491.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/83294dd12b5144a0bfc5eb3463bf114f3a8f2db93f9050eb9287b9a33176784f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/84be07e5e9625ba2f13e506e443c26fefad470a2d0846c28eb90652595e3fba1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/8751927019ccf125072024092771b5e8242cc128243bceb8e1195a846fc4c713.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/88183ed7fe73af9b2f34f36568fbe495960ef5ee072ea87115bcbd0d72b74699.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/8c41da616efb908fc434a3e5c9b1d3e5523faf3bd12a377b6d7c555d301dbd82.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/8caf77c9b766ef29f8a42ee068684c7e93b7f5244baa54683cb0d540e42e60c9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/8cfc5cb4c357258eebcf73092e733da5f6b413446c5540a7e636f36c7df530aa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/90814b207eeeaefe6089c06f30527d4a36a62b3d4dcc611f2787d0761d34ebf5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/939df19b6460bb14bbd620f7c48ea76cacf6a3d97d423511ce6b9012af0dc275.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/94b1bc949321f9ceb3ea328a9f87deed301a3e910e74b2193e66669eab27b0fa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/9629a81345c04cf43b68d69316557912e3ea6fd372d48442367e2a223fecb080.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/9b49bafd0cdc07d5c833d7ad933460e1656d8f61a95c1db0ee46fd463daf023e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/9c68fe6507d24d37cf3bec8f42dbe15e3ecff7ec5a8cb7c5a63487a32c9b9716.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/9d4445c168f2ae2ab7abdd054c5d11c0a087db0811c770ac9ffcd519f0758fd2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/9d992838b49395ca81f67a296edf7a8f4fa2938fc95b305bf4001e89f955aa16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/a09e72ec8e13ebe0ccbd3e3cf61091bfc91ebbd4c07b9b28520092190cdd87eb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/a3afd1d7edd0f7c97e90f76b2dbe5dbb776bbdf3fab540522d361861af55adc4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/a47670891c460c89b5f6d1b739ee0896e483c0e629fcb8f2391aa03273182ae9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/a80c9a093af9600d4fb8714677563105b6a24ff68d6a8d2bb8ef90964357ea09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/a8ef27a61ef2dc149d46761aa968f99e45e18421263bfce2e9f38580e2fe21ca.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/aaebb606e4b7f86979366922aac5d1ee79085921f924fcdbde323952cf7f21d4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/ad5eeeb19e2a0234f61bb1a34f5279e666e32daad58a73e43552bb56f744b724.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/b2b553aceaa772b0b829ca2c0418970f3517a167b1ec5fe8807886f9dbfcc08f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/b94731517cb192828906971fe047f1106783476a4f33bb7c8b775978346ce678.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/bc029cae2009189c5d6c4ec513deac3197855a611a22db5e3ee078b4e76b1fc4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/bc539d4968d8e759854a9b47aa39916ba8146988dca0452485f23c9d71393b42.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/befefc1bdebfb593213e592c4d3cc55d55b4edeaf9c74792db0923cba7198e6e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/c1e737a0836e9518a04f3800f01d1c7170604a0b14ea39bf1cb49a722cec98c0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/c2810c2dd73d36a6c0b8f356fc700b8a1c3ddb1635af8deb327e8720193830eb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/c3a1a6509c24b254008a75de35b524ec89b7f6b85db7ef4d85e4d1e95b2adf69.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/c5fe036aeda38a7a48c93e7b410ef96d9b8e75a23637613b2674274060014887.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/cc6922fc3002189a10ad0678959acbd51af46d979d2f28871fd9b4fbe6f48105.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/cd4ff7344056213e226c745e14ace2f12918365351e8b85c5fbaa74e0a457ec6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/e04c1b9ef8191be1cebcf12c3c3a396522807501a2b83ce95655c443a82a00d6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/e8e2d4a617246ad82073dcb0ec35ef3333ed7ef3fe3714b693719c9f83849e72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/e92684d10479c1d701a2b0ab9de34a611af889abeec1e42f125653d178167892.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/e9a1fef9ef5f57def4ec703297f3962a2708687c99d046ecf2f02c8ba47b1217.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/ecd09cf5f71c85a8190cf071cbf622bd2785265c3eb8f6945e51c10fb39ba854.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/ecfd038b992274e830b04d0687312ab61c3ec5a9fdc209b200aec8bf56a1265c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/edf9969a076016a4212d5a696081756f665d9e8dfe5e029ea0efd5c656254033.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/f046445d591ec5de478b2e00b4f8480c266478212163d9e60923282c4fe6b7a1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/f19bec222e5386ef65912c8be8c04f59f8f190175d2165ef9eae42381ecfae8a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/f26a67119e0b7e80e81c96d2b94c04364c7b06050f6670eeff24e1fc455a1ba4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/f58d364f7e3602d8bff27ef9e1ba3b097cf25d762aefe991239cafa6d4a5d792.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/f7ba5f5e01d1a13e9809f92ac98ecabc6f52805fcfda0a4220d6870eed042f69.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/f959da098f4a437fd36cd6e8d3defac16e7ffad00f8a4dd771d7cf3b0e398880.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/f970a9ca7c986d36bcfef2e1356dba5ad27917d7545a70d5edeeb4c512dc5e2d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/fac3fe7ff34af4a8daed137a42f93d9c630dde958ed0a6b6d1ec37371d33d58b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/fc7ad9645d7dfc659400dd108d7c1760514e7dd0219a1882e43af97cea6f965b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/fd7662da8f14b7b7f2e8ff5262cfff1ffaab0565b497ee680c5f1e52c79d62fd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/fdff0b6a164acaadc744511af9d136da943dabdc7caeb99dbe7213b15fe33079.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/ff285f3e5c7abe4cdd0c9d91a3668a3ae17201f7755d230a67ee9965a323e0e1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource1618919842034607073.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource1984060161521905131.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource2223364529096375329.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource2534641011125151680.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource2566628376616208065.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource4484164675343767132.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource4821706809347895863.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource5910160609592395354.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource7691095573081832886.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource8802596273393286631.html.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fabricaescuela/userinterfaces/CreditosConsumo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fabricaescuela/userinterfaces/CreditosConsumo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fabricaescuela/userinterfaces/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fabricaescuela/userinterfaces/Home.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fabricaescuela/tasks/ClickSaberMasBtn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fabricaescuela/interactions/ClickSaberMasBtn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fabricaescuela/tasks/ContinueSimulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fabricaescuela/interactions/ContinueSimulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fabricaescuela/tasks/EnterLoanAmount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fabricaescuela/interactions/EnterLoanAmount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fabricaescuela/tasks/EnterMonthsNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fabricaescuela/interactions/EnterMonthsNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fabricaescuela/tasks/SelectSiOption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fabricaescuela/interactions/SelectSiOption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fabricaescuela/tasks/SelectSimular.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fabricaescuela/interactions/SelectSimularInCreditosConsumo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/fabricaescuela/userinterfaces/Simulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fabricaescuela/userinterfaces/Simulation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/fabricaescuela/stepdefinitions/LoanSimulationStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fabricaescuela/stepdefinitions/LoanSimulationStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/loanSimulation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/loanSimulation.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-d2e1ecc8e7e76d44f0d664a5fff6ba025d4b95d96df0cd7e26b334ae8d7538dc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-d2e1ecc8e7e76d44f0d664a5fff6ba025d4b95d96df0cd7e26b334ae8d7538dc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/d2e1ecc8e7e76d44f0d664a5fff6ba025d4b95d96df0cd7e26b334ae8d7538dc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/d2e1ecc8e7e76d44f0d664a5fff6ba025d4b95d96df0cd7e26b334ae8d7538dc.html" afterDir="false" />
@@ -66,6 +186,9 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.fabricaescuela.interactions" />
     </key>
   </component>
   <component name="RunManager">
