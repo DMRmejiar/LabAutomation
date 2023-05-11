@@ -13,6 +13,6 @@ Feature: Loan simulation
     And I select "Si" for the question "¿Sabes cuánto dinero necesitas?"
     And I enter a loan amount between 1'000.000 and 500.000.000
     And I enter a random number of months between 48 and 84
-    And I enter a random birth date
+    And I enter a birth date
     And I click on "SIMULAR"
     Then I should see the estimated monthly payment

@@ -3,18 +3,18 @@ package org.fabricaescuela.interactions;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Interaction;
 import net.serenitybdd.screenplay.actions.Click;
-import org.fabricaescuela.userinterfaces.Simulation;
+import org.fabricaescuela.userinterfaces.CreditosConsumo;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
-public class ContinueSimulation implements Interaction {
+public class SelectsSimulateInCreditosDeConsumoPage implements Interaction {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
-                Click.on(Simulation.CONTINUAR_BTN)
+                Click.on(CreditosConsumo.SIMULAR_BTN)
         );
     }
-    public static ContinueSimulation makeInformation(){
-        return instrumented(ContinueSimulation.class);
+    public static SelectsSimulateInCreditosDeConsumoPage makeInformation(){
+        return instrumented(SelectsSimulateInCreditosDeConsumoPage.class);
     }
 }

@@ -6,7 +6,7 @@ import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 import org.fabricaescuela.userinterfaces.Simulation;
 
-public class EnterBirthDate implements Task {
+public class EntersBirthDate implements Task {
 
 
     @Override
@@ -19,7 +19,7 @@ public class EnterBirthDate implements Task {
                 );
     }
 
-    public static EnterBirthDate makeInformation() {
-        return Tasks.instrumented(EnterBirthDate.class);
+    public static EntersBirthDate makeInformation() {
+        return Tasks.instrumented(EntersBirthDate.class);
     }
 }

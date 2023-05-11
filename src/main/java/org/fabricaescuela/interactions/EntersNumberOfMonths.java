@@ -9,17 +9,16 @@ import java.util.Random;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
-public class EnterLoanAmount implements Interaction {
+public class EntersNumberOfMonths implements Interaction {
     @Override
     public <T extends Actor> void performAs(T actor) {
-        int maxAmount=500000000, minAmount=1000000;
-        int loanAmount = new Random().nextInt(maxAmount - minAmount) + minAmount;
+        int maxMonths=84, minMonths=48;
+        int loanMonths = new Random().nextInt(maxMonths - minMonths) + minMonths;
         actor.attemptsTo(
-                Enter.theValue(String.valueOf(loanAmount)).into(Simulation.MONTO_INPUT)
+                Enter.theValue(String.valueOf(loanMonths)).into(Simulation.MESES_INPUT)
         );
     }
-    public static EnterLoanAmount makeInformation(){
-        return instrumented(EnterLoanAmount.class);
+    public static EntersNumberOfMonths makeInformation(){
+        return instrumented(EntersNumberOfMonths.class);
     }
 }
-

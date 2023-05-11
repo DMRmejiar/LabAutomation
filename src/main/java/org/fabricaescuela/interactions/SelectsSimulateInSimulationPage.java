@@ -7,14 +7,14 @@ import org.fabricaescuela.userinterfaces.Simulation;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
-public class SelectSiOption implements Interaction {
+public class SelectsSimulateInSimulationPage implements Interaction {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
-                Click.on(Simulation.SI_CHECK)
+                Click.on(Simulation.SIMULAR_BTN)
         );
     }
-    public static SelectSiOption makeInformation(){
-        return instrumented(SelectSiOption.class);
+    public static SelectsSimulateInSimulationPage makeInformation(){
+        return instrumented(SelectsSimulateInSimulationPage.class);
     }
 }

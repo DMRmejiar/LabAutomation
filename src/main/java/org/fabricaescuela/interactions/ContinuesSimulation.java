@@ -3,18 +3,18 @@ package org.fabricaescuela.interactions;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Interaction;
 import net.serenitybdd.screenplay.actions.Click;
-import org.fabricaescuela.userinterfaces.Home;
+import org.fabricaescuela.userinterfaces.Simulation;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
-public class ClickSaberMasBtn implements Interaction {
+
+public class ContinuesSimulation implements Interaction {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
-                Click.on(Home.CERRAR_BTN),
-                Click.on(Home.SABER_MAS_BTN)
+                Click.on(Simulation.CONTINUAR_BTN)
         );
     }
-    public static ClickSaberMasBtn makeInformation(){
-        return instrumented(ClickSaberMasBtn.class);
+    public static ContinuesSimulation makeInformation(){
+        return instrumented(ContinuesSimulation.class);
     }
 }
