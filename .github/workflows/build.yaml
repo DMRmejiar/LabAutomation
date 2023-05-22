@@ -40,8 +40,6 @@ jobs:
         run: sudo apt install -y chromium-browser
       - name: Install all necessary packages
         run: pip install requests beautifulsoup4 pandas webdriver-manager selenium
-      - name: Run Chromium
-        run: chromium-browser
       - name: Cache SonarQube packages
         uses: actions/cache@v1
         with:
