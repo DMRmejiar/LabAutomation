@@ -21,8 +21,8 @@ public class Simulation {
             .locatedBy("//*[@id=\"mat-datepicker-0\"]/div/mat-month-view/table/tbody/tr[6]/td[2]/div[1]");
     public static final Target SIMULAR_BTN = Target.the("simulate loan button")
             .locatedBy("//*[@id=\"boton-simular\"]");
-    public static final Target SIMULATION_DONE_TEXT = Target.the("simulation done text")
-            .locatedBy("//*[@id=\"layoutContainers\"]/div/div[2]/div/div[2]/section/div[3]/div[2]/app-root/div/app-resultado-simulacion/section[1]/span");
+    public static final Target INFORMACION_LEGAL_TEXT = Target.the("informacion legal text")
+            .locatedBy("//*[@id=\"mat-expansion-panel-header-2\"]");
 }
 
 
