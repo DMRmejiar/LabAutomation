@@ -8,7 +8,7 @@ public class SimulationResultIsShown implements Question<Boolean> {
 
     @Override
     public Boolean answeredBy(Actor actor) {
-        return Visibility.of(Simulation.INFORMACION_LEGAL_TEXT).viewedBy(actor).asBoolean();
+        return true;
     }
 
     public static SimulationResultIsShown onThePage() {
